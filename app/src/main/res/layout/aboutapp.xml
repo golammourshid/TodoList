@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".activities.AboutApp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/aboutId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appName"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/AboutId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="@color/AboutAppText" />
+
+            <TextView
+                android:id="@+id/TishatId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/AboutId"
+                android:text="@string/Tishat"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/CreditTextColor" />
+
+            <TextView
+                android:id="@+id/RoniId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/TishatId"
+                android:text="@string/Roni"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/CreditTextColor" />
+
+            <TextView
+                android:id="@+id/AntorId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/RoniId"
+                android:layout_alignBottom="@+id/RoniId"
+                android:layout_marginStart="0dp"
+                android:text="@string/Antor"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/CreditTextColor" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

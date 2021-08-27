@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".activities.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:queryHint="search task here"
+            android:background="@android:color/transparent"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/list_todo"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#fffefe" />
+
+            <TextView
+                android:id="@+id/emptyId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="There's no upcoming task to do :)"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="italic" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addItem"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/newtask"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                app:backgroundTint="@color/colorPrimary"
+                app:rippleColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

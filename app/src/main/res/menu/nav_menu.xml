@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/homeId"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:checkable="true"
+        android:title="Home"
+        >
+
+    </item>
+    <item
+
+        android:id="@+id/donelistId"
+        android:icon="@drawable/donelist"
+        android:checkable="true"
+        android:title="Done List"
+        >
+
+    </item>
+    <item
+
+        android:id="@+id/addId"
+        android:icon="@drawable/addnew"
+        android:checkable="true"
+        android:title="Add New"
+        >
+
+    </item>
+    <item
+
+        android:id="@+id/aboutId"
+        android:icon="@drawable/aboutapp"
+        android:checkable="true"
+        android:title="About"
+        >
+
+    </item>
+</menu>

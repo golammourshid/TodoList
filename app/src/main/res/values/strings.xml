@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="navHeaderText">Todo List</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="required">Please enter a value</string>
+    <string-array name="tasks">
+        <item> Watch Movie</item>
+        <item> Play Game</item>
+        <item> Fifa Game</item>
+        <item> Dinner </item>
+    </string-array>
+
+    <string-array name="Lists">
+        <item>Education</item>
+        <item>Family</item>
+        <item>Fun</item>
+        <item>Sports</item>
+        <item>Works</item>
+
+
+    </string-array>
+    <string name="question">What is to be done? </string>
+    <string name="delete_task_confirmation_title">Delete Task?</string>
+    <string name="delete_task_confirmation_message">Are you sure you want to delete this task?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="details">Details</string>
+    <string name="alert_title">Close Task?</string>
+    <string name="alert_message">Are you sure you want to close this task?</string>
+    <string name="paragraph">Paragraphs can begin with an indentation (about five spaces), or by missing a line out, and then starting again.\n
+        This makes it easier to see when one paragraph ends and another begins. \n
+        In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Tishat">Md. Ahasanul Alam\n
+    23rd Batch\n
+    CSE, DU.\n\n
+
+    </string>
+    <string name="Roni">Md. Robiul Islam Rony\n
+    23rd Batch\n
+    CSE, DU.\n\n
+
+    </string>
+    <string name="Antor">Golam Mourshid\n
+    23rd Batch\n
+    CSE, DU.\n\n
+
+    </string>
+
+    <string name="appName">
+        \@Todo List App\n\n\n
+    </string>
+    <string name="about">
+        To-do-list is smart task list for everyday use.
+        It is truly usable with great user experience.
+        No matter who you are and what you do - you will be better organized!
+        At home, at work and in your free time - you will focus on really important things!
+        To-do-list is powerful in its simplicity and convenience of use. \n\n\n\n
+    </string>
+    <string name="NotificationTitle">It\'s time to hurry</string>
+    <string name="NotificationBody">You have an upcoming task within a minute!</string>
+
+
+</resources>

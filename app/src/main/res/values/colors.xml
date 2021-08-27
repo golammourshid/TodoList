@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D35A17</color>
+    <color name="colorPrimaryDark">#ef7532</color>
+    <color name="colorAccent">#5b0384</color>
+    <color name="HeadingColor">#000000</color>
+    <color name="DateColor">#557A4A</color>
+    <color name="TimeColor">#ea9449</color>
+    <color name="DoneButtonColor">#c1c1ac</color>
+    <color name="black">#000000</color>
+    <color name="CreditTextColor">#557A4A</color>
+    <color name="AboutAppText">#D35A17</color>
+    <color name="progressbarBackground">#03A9F4</color>
+    <color name="progressbarTint">#4C05F7</color>
+
+
+
+
+</resources>

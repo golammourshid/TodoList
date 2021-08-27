@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.univdhaka.cse2216.myplane">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="edu.univdhaka.cse2216.myplane.activities.SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="edu.univdhaka.cse2216.myplane.activities.MainActivity">
+
+
+        </activity>
+
+        <receiver
+            android:name="edu.univdhaka.cse2216.myplane.utils.AlarmReceiver"
+            android:enabled="false"></receiver>
+        <receiver android:name="edu.univdhaka.cse2216.myplane.utils.Alarm" />
+    </application>
+
+</manifest>
